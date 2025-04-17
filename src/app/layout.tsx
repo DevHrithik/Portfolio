@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/og-image.png",
+        url: "https://devhrithik.tech/og-image.png",
         width: 1200,
         height: 630,
         alt: DATA.name,
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
   twitter: {
     title: `${DATA.name}`,
     card: "summary_large_image",
-    images: ["/og-image.png"],
+    images: ["https://devhrithik.tech/og-image.png"],
   },
   verification: {
     google: "",
