@@ -100,8 +100,8 @@ export const DATA = {
       logoUrl: "/buildmvpfast.png",
       start: "feb 2025",
       end: "Present",
-      // description:
-      //   "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+      description:
+        ""
     },
     {
       company: "XCaliber Health",
@@ -112,8 +112,8 @@ export const DATA = {
       logoUrl: "/xcaliber.svg",
       start: "Feb 2025",
       end: "Mar 2025",
-      // description:
-      //   "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+      description:
+        ""
     },
     {
       company: "Kidjig Technologies",
@@ -124,8 +124,8 @@ export const DATA = {
       logoUrl: "/kidjig.png",
       start: "Feb 2025",
       end: "Feb 2025",
-      // description:
-      //   "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+      description:
+        ""
     },
     {
       company: "Jaro.Dev",
@@ -136,8 +136,8 @@ export const DATA = {
       logoUrl: "/image.png",
       start: "Jan 2025",
       end: "Jan 2025",
-      // description:
-      //   "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+      description:
+        "",
     },
     {
       company: "Diligence AI",
@@ -159,8 +159,8 @@ export const DATA = {
       logoUrl: "/memoji.jpeg",
       start: "2024",
       end: "Present",
-      // description:
-      //   "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+      description:
+        "",
     },
     {
       company: "Open Source",
@@ -171,8 +171,8 @@ export const DATA = {
       logoUrl: "/github-mark.png",
       start: "2023",
       end: "Present",
-      // description:
-      //   "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
+      description:
+        "",
     },
   ],
   education: [
