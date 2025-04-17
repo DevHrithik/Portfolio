@@ -1,3 +1,5 @@
+import Calcom from "@/components/calcom";
+import { FreelanceCard } from "@/components/freelance-card";
 import { HackathonCard } from "@/components/hackathon-card";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
@@ -48,6 +50,34 @@ export default function Page() {
             {DATA.summary}
           </Markdown>
         </BlurFade>
+      </section>
+      <section id="podcast">
+        <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
+          <BlurFade delay={BLUR_FADE_DELAY * 16}>
+            <div className="space-y-3">
+              <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+                Podcast I got featured on
+              </div>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                My Coding Journey
+              </h2>
+              <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                Click the link below to listen to my podcast episode{" "}
+              </p>
+              <div className="mx-auto aspect-video">
+                <iframe
+                  className="w-[90vw] sm:w-[85vw] md:w-[75vw] lg:w-[70vw] xl:w-[70vw] h-full rounded-[20px]"
+                  src="https://www.youtube.com/embed/5mhevdwXuJM?si=-Nww4qpdNBhi1aqz"
+                  title="YouTube video player"
+                  // frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                ></iframe>
+              </div>
+            </div>
+          </BlurFade>
+        </div>
       </section>
       <section id="skills">
         <div className="flex min-h-0 flex-col gap-y-3">
@@ -195,6 +225,53 @@ export default function Page() {
           </BlurFade>
         </div>
       </section>
+      <section id="freelance">
+        <div className="space-y-12 w-full py-12">
+          <BlurFade delay={BLUR_FADE_DELAY * 17}>
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <div className="space-y-2">
+                <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+                  Freelance Work
+                </div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                  Check out my latest freelance work
+                </h2>
+                <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                  I&apos;ve worked on a variety of freelance projects, from
+                  simple websites to complex web applications and mobile apps.
+                  Here are a few of my favorites. I have worked with a variety
+                  of clients, from startups to established companies. To
+                  checkout my NDA signed projects, or book a call with me{" "}
+                  <Link href="#cal" className="text-blue-500 hover:underline">
+                    here
+                  </Link>
+                  .
+                </p>
+              </div>
+            </div>
+          </BlurFade>
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
+            {DATA.freelance.map((freelance, id) => (
+              <BlurFade
+                key={freelance.title}
+                delay={BLUR_FADE_DELAY * 12 + id * 0.05}
+              >
+                <FreelanceCard
+                  href={freelance.href}
+                  key={freelance.title}
+                  title={freelance.title}
+                  description={freelance.description}
+                  dates={freelance.dates}
+                  tags={freelance.technologies}
+                  image={freelance.image}
+                  video={freelance.video}
+                  links={freelance.links}
+                />
+              </BlurFade>
+            ))}
+          </div>
+        </div>
+      </section>
       <section id="contact">
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 16}>
@@ -219,6 +296,11 @@ export default function Page() {
             </div>
           </BlurFade>
         </div>
+      </section>
+      <section id="cal">
+        <BlurFade delay={BLUR_FADE_DELAY * 16}>
+          <Calcom />
+        </BlurFade>
       </section>
     </main>
   );

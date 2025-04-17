@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Tech Enthusiast turned Software Engineer . I love building things and helping people. Very active on Twitter.",
   summary:
-    "I’m a passionate [pre-final year undergrad](#education) with a deep love for coding and technology. My journey has led me to develop a strong foundation in [Web development, DevOps, and the emerging world of Web3](#education). I thrive on building innovative [products](#projects) and sharing my insights through blogging. Always eager to expand my skills and tackle new challenges, I’m actively seeking lucrative opportunities to leverage my tech expertise and drive impactful projects. Whether it’s through creating seamless web experiences or exploring the future of decentralized applications, I’m excited to contribute to the tech landscape and grow alongside it.",
+    "I’m a passionate [pre-final year undergrad](#education) with a deep love for coding and technology. My journey has led me to develop a strong foundation in [Web development, DevOps, and the emerging world of AI](#education). I thrive on building innovative [products](#projects) and sharing my insights through blogging. Always eager to expand my skills and tackle new challenges, I’m actively seeking lucrative opportunities to leverage my tech expertise and drive impactful projects. Whether it’s through creating seamless web experiences or exploring the future of decentralized applications, I’m excited to contribute to the tech landscape and grow alongside it.",
   avatarUrl: "/hrithik.jpeg",
   skills: [
     "React",
@@ -91,6 +91,65 @@ export const DATA = {
   },
 
   work: [
+    {
+      company: "BuildMvpFast",
+      href: "https://buildmvpfa.st",
+      badges: [],
+      location: "Remote",
+      title: "Frontend Developer Intern",
+      logoUrl: "/buildmvpfast.png",
+      start: "Mar 2025",
+      end: "Present",
+      description:
+        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+    },
+    {
+      company: "XCaliber Health",
+      href: "https://www.xcaliberhealth.ai/",
+      badges: [],
+      location: "Remote",
+      title: "Frontend Developer Intern",
+      logoUrl: "/xcaliber.svg",
+      start: "Feb 2025",
+      end: "Mar 2025",
+      description:
+        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+    },
+    {
+      company: "Kidjig Technologies",
+      href: "https://www.kidjig.com/",
+      badges: [],
+      location: "Remote",
+      title: "Frontend Developer Intern",
+      logoUrl: "/kidjig.png",
+      start: "Feb 2025",
+      end: "Feb 2025",
+      description:
+        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+    },
+    {
+      company: "Jaro.Dev",
+      href: "https://www.jaro.dev/",
+      badges: [],
+      location: "Remote",
+      title: "Full Stack Developer",
+      logoUrl: "/image.png",
+      start: "Jan 2025",
+      end: "Jan 2025",
+      description:
+        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+    },
+    {
+      company: "Diligence AI",
+      href: "https://diligenceai.dev",
+      badges: [],
+      location: "Remote",
+      title: "Full Stack Developer",
+      logoUrl: "/memoji.jpeg",
+      start: "Sep 2024",
+      end: "Nov 2024 | Feb 2025",
+      description: "",
+    },
     {
       company: "Freelance Web Developer",
       href: "",
@@ -251,7 +310,67 @@ export const DATA = {
       video: "",
     },
   ],
+  freelance: [
+    {
+      title: "AI Landing Page",
+      href: "https://diligenceai.dev",
+      dates: "January 2024",
+      active: true,
+      description:
+        "Developed a stunning landing page, built with Astro Js, React.js, Tailwind CSS, and Framer Motion, offers a highly responsive and visually engaging experience. Designed with a strong focus on aesthetics and fluid animations, it provides a seamless user interface across all devices, ensuring a captivating first impression for visitors.",
+      technologies: [
+        "Astro.js",
+        "ReactJS",
+        "Typescript",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Framer Motion",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://diligenceai.dev",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/diligence-landing.png",
+      video: "",
+    },
+    {
+      title: "NFTech Landing Page",
+      href: "https://nftech.pro",
+      dates: "April 2024",
+      active: true,
+      description:
+        "Developed a stunning landing page, built with Next.js, React.js, Tailwind CSS, and Framer Motion, offers a highly responsive and visually engaging experience. Designed with a strong focus on aesthetics and fluid animations, it provides a seamless user interface across all devices, ensuring a captivating first impression for visitors.",
+      technologies: [
+        "Next.js",
+        "ReactJS",
+        "Typescript",
+        "TailwindCSS",
+        "Shadcn UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://nftech.pro",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/nftech-landing.png",
+      video: "",
+    },
+  ],
   hackathons: [
+    {
+      title: "SPARKHACK",
+      dates: "February 2025",
+      location: "Kolkata, India",
+      description:
+        "Developed a Inclusive Education App This mobile/web app should provide an accessible platform for deaf and mute students in India to learn Indian Sign Language through interactive modules. It includes features for learning alphabets, numbers, basic math, and science, with support for text-to-sign and speech-to-sign conversion. The app tracks user progress, offering real-time feedback and practice exercises to reinforce learning. By integrating cloud-baseddata storage and analytics, it can provide detailed reports for teachers and parents.",
+      image: "sparkhack.png",
+      links: [],
+    },
     {
       title: "SIH Hackathon",
       dates: "September 2024 - Present",
