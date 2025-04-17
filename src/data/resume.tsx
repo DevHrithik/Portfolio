@@ -96,24 +96,24 @@ export const DATA = {
       href: "https://buildmvpfa.st",
       badges: [],
       location: "Remote",
-      title: "Frontend Developer Intern",
+      title: "Software Developer",
       logoUrl: "/buildmvpfast.png",
-      start: "Mar 2025",
+      start: "feb 2025",
       end: "Present",
-      description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+      // description:
+      //   "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
     },
     {
       company: "XCaliber Health",
       href: "https://www.xcaliberhealth.ai/",
       badges: [],
       location: "Remote",
-      title: "Frontend Developer Intern",
+      title: "Software Developer Intern",
       logoUrl: "/xcaliber.svg",
       start: "Feb 2025",
       end: "Mar 2025",
-      description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+      // description:
+      //   "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
     },
     {
       company: "Kidjig Technologies",
@@ -124,20 +124,20 @@ export const DATA = {
       logoUrl: "/kidjig.png",
       start: "Feb 2025",
       end: "Feb 2025",
-      description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+      // description:
+      //   "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
     },
     {
       company: "Jaro.Dev",
       href: "https://www.jaro.dev/",
       badges: [],
       location: "Remote",
-      title: "Full Stack Developer",
+      title: "Software Developer",
       logoUrl: "/image.png",
       start: "Jan 2025",
       end: "Jan 2025",
-      description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+      // description:
+      //   "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
     },
     {
       company: "Diligence AI",
@@ -159,8 +159,8 @@ export const DATA = {
       logoUrl: "/memoji.jpeg",
       start: "2024",
       end: "Present",
-      description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+      // description:
+      //   "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
     },
     {
       company: "Open Source",
@@ -171,8 +171,8 @@ export const DATA = {
       logoUrl: "/github-mark.png",
       start: "2023",
       end: "Present",
-      description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
+      // description:
+      //   "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
     },
   ],
   education: [
@@ -314,7 +314,7 @@ export const DATA = {
     {
       title: "AI Landing Page",
       href: "https://diligenceai.dev",
-      dates: "January 2024",
+      dates: "January 2025",
       active: true,
       description:
         "Developed a stunning landing page, built with Astro Js, React.js, Tailwind CSS, and Framer Motion, offers a highly responsive and visually engaging experience. Designed with a strong focus on aesthetics and fluid animations, it provides a seamless user interface across all devices, ensuring a captivating first impression for visitors.",
@@ -339,7 +339,7 @@ export const DATA = {
     {
       title: "NFTech Landing Page",
       href: "https://nftech.pro",
-      dates: "April 2024",
+      dates: "April 2025",
       active: true,
       description:
         "Developed a stunning landing page, built with Next.js, React.js, Tailwind CSS, and Framer Motion, offers a highly responsive and visually engaging experience. Designed with a strong focus on aesthetics and fluid animations, it provides a seamless user interface across all devices, ensuring a captivating first impression for visitors.",
@@ -373,7 +373,7 @@ export const DATA = {
     },
     {
       title: "SIH Hackathon",
-      dates: "September 2024 - Present",
+      dates: "September 2024",
       location: "Kolkata, India",
       description:
         "Developed a web application that helps in ships re-routing using cuttinf edge traffic and optimizing the time taken to reach the destination.",
