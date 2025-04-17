@@ -98,7 +98,7 @@ export const DATA = {
       location: "Remote",
       title: "Software Developer",
       logoUrl: "/buildmvpfast.png",
-      start: "feb 2025",
+      start: "Feb 2025",
       end: "Present",
       description:
         ""
